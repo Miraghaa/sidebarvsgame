@@ -1,0 +1,93 @@
+#lghr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+#lghr nav a {
+  color: black;
+  font-size: medium;
+  padding: 0px 5px;
+  text-decoration: none;
+}
+
+#tel {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  #lghr {
+    display: none;
+  }
+  #tel {
+    display: block;
+    padding-top: 20px;
+  }
+  #tel .heads {
+    display: none;
+  }
+  #tel .headup {
+    display: flex;
+    justify-content: space-between;
+  }
+  #tel .headup .icon i {
+    padding: 0px 5px;
+    font-size: 25px;
+    color: #fff;
+    background-color: red;
+    padding: 10px 10px;
+    border-radius: 15px;
+  }
+  #tel .headup .icon .bar {
+    transition: 0.5s;
+  }
+  #tel .headup .icon .bar:hover {
+    background-color: green;
+  }
+  #tel .head {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+  }
+  #tel .head .nav-tel a {
+    text-decoration: none;
+    color: #000;
+    padding: 0px 5px;
+  }
+  #tel .head .icon-tel i {
+    display: inline-block;
+    border: 1px solid red;
+    background-color: #fff;
+    color: red;
+    font-size: 15px;
+    padding: 5px 8px;
+    border-radius: 5px;
+    margin-left: 10px;
+    transition: 0.1s;
+  }
+  #tel .head .icon-tel i:hover {
+    background-color: red;
+    color: #fff;
+  }
+  #tel .prs {
+    display: flex;
+    flex-direction: column;
+  }
+  #tel .prs .person a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    padding: 4px 7px;
+    border-radius: 15px;
+    background-color: green;
+  }
+  #tel .prs .syh {
+    margin-top: 30px;
+  }
+  #tel .prs .syh ul {
+    list-style: none;
+  }
+  #tel .prs .syh ul li i {
+    padding: 10px 5px;
+  }
+}/*# sourceMappingURL=style.css.map */
